@@ -15,6 +15,8 @@ buttonYes.addEventListener('click', () => {
   document.getElementById('h2').innerHTML = "Yay!"
   document.getElementById('h3').innerHTML = "I'll pick you up @ 3!"
   document.getElementById('pyro').style.display = 'block'
+  document.getElementById('doggo').style.display = 'none'
+  document.getElementById('doggo2').style.display = 'block'
   buttonNo.style.display = 'none'
   buttonYes.style.display = 'none'
 })

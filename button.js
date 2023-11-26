@@ -17,6 +17,8 @@ buttonYes.addEventListener('click', () => {
   document.getElementById('pyro').style.display = 'block'
   document.getElementById('doggo').style.display = 'none'
   document.getElementById('doggo2').style.display = 'block'
+  document.getElementById('divDoggo').style.display = 'none'
+  document.getElementById('divDoggo2').style.display = 'block'
   buttonNo.style.display = 'none'
   buttonYes.style.display = 'none'
 })

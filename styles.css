@@ -8,6 +8,7 @@ img {
   margin-right: auto;
   width: 100%;
   height: auto;
+  border-radius: 25px;
 }
 h2, h3 {
   margin: 0;
@@ -248,6 +249,10 @@ h3 {
     margin-top: 30%;
     margin-left: 80%; } }
 
-    #doggo2 {
-      display: none;
-    }
+#doggo2 {
+  display: none;
+}
+
+#divDoggo2 {
+  display: none;
+}

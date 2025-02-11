@@ -2,6 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="animatedStyles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script>
       /*to prevent Firefox FOUC, this must be here*/
@@ -10,39 +11,42 @@
   </head>
   <body>
     <div>
-      <div class="pyro" id="pyro">
-        <div class="before"></div>
-        <div class="after"></div>
-      </div>
-      <div id="divDoggo">
-        <img
-          src="assets/doggo.gif"
-          frameBorder="0"
-          class="giphy-embed"
-          allowFullScreen
-          id="doggo"
-          >
-        </img>
-      </div>
-      <div id="divDoggo2">
-        <img
-          src="assets/doggo2.gif"
-          frameBorder="0"
-          class="giphy-embed"
-          allowFullScreen
-          id="doggo2"
-          >
-        </img>
-      </div>      
-      <div class="center">
-        <h2 id="h2">Hey Kim!</h2>
-        <h3 id="h3">Lets go on a date this Sunday?</h3>
-      </div>
-      <div class="center">
-        <button class="buttons" id="responseYes">Yes!</button>
-        <button class="buttons" id="responseNo">No :c</button>
+      <div class="content">
+        <div id="divCat">
+          <img
+            src="assets/cat.gif"
+            frameBorder="0"
+            class="giphy-embed"
+            allowFullScreen
+            id="cat"
+            >
+          </img>
+        </div>
+        <h1 class="title" id="title">
+          WILL YOU BE MY VALENTINE?        
+        </h1>        
+        <div class="aurora">
+          <div class="aurora__item"></div>
+          <div class="aurora__item"></div>
+          <div class="aurora__item"></div>
+          <div class="aurora__item"></div>
+        </div>
+        <div class="center">
+          <button class="buttons" id="responseYes">YES</button>
+        </div>
+        <div class="center">
+          <button class="buttons" id="responseNo">NO</button>
+        </div>
+        <p id="note">
+          I love you so much baby. By the time you read this, we would have been in a relationship together for 450 days.
+          With each day, I love you more and more. I love staring into your eyes when the sun shines into them a certain way. I love making you laugh. I love making you giggle.
+          I love you on our simplest of days of staying in and watching shows to being travel buddies and exploring the world. I look forward to loving you more and more.
+          <br/><br/>
+          Happy Valentines Day Sweetie!
+        </p>
       </div>
     </div>
   </body>
+  <script src="createFallingObjects.js"></script>
   <script src="button.js"></script>
 </html>

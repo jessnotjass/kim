@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+      /*to prevent Firefox FOUC, this must be here*/
+      let FF_FOUC_FIX;
+    </script>
+  </head>
+  <body>
+    <div>
+      <div class="pyro" id="pyro">
+        <div class="before"></div>
+        <div class="after"></div>
+      </div>
+      <div id="divDoggo">
+        <img
+          src="assets/doggo.gif"
+          frameBorder="0"
+          class="giphy-embed"
+          allowFullScreen
+          id="doggo"
+          >
+        </img>
+      </div>
+      <div id="divDoggo2">
+        <img
+          src="assets/doggo2.gif"
+          frameBorder="0"
+          class="giphy-embed"
+          allowFullScreen
+          id="doggo2"
+          >
+        </img>
+      </div>      
+      <div class="center">
+        <h2 id="h2">Hey Kim!</h2>
+        <h3 id="h3">Lets go on a date this Sunday?</h3>
+      </div>
+      <div class="center">
+        <button class="buttons" id="responseYes">Yes!</button>
+        <button class="buttons" id="responseNo">No :c</button>
+      </div>
+    </div>
+  </body>
+  <script src="button.js"></script>
+</html>

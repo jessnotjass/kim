@@ -1,4 +1,4 @@
-const  buttonNo = document.getElementById('responseNo')
+const buttonNo = document.getElementById('responseNo')
 const buttonYes = document.getElementById('responseYes')
 
 buttonNo.addEventListener('mouseover', () => {
@@ -9,8 +9,18 @@ buttonNo.addEventListener('mouseover', () => {
 buttonNo.addEventListener('click', () => {
   buttonNo.style.left = `${Math.ceil(Math.random() * (window.innerWidth - buttonNo.style.width))}px`
   buttonNo.style.top = `${Math.ceil(Math.random() * (window.innerHeight - buttonNo.style.height))}px`
+  console.log(buttonNo.style.top)
+  console.log(buttonNo.style.left)
 })
 
+buttonYes.addEventListener('click', () => {
+  document.getElementById('responseNo').style.display = 'none'
+  document.getElementById('responseYes').style.display = 'none'
+  document.getElementById('title').style.display = 'none'
+  document.getElementById('cat').style.display = 'block'
+  document.getElementById('note').style.display = 'block'
+})
+/*
 buttonYes.addEventListener('click', () => {
   document.getElementById('h2').innerHTML = "Yay!"
   document.getElementById('h3').innerHTML = "I'll pick you up @ 3!"
@@ -22,3 +32,4 @@ buttonYes.addEventListener('click', () => {
   buttonNo.style.display = 'none'
   buttonYes.style.display = 'none'
 })
+*/

@@ -1,12 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap");
 
+hteml {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
 body {
   background-color: var(--bg);
-  background-image: url('assets/anniversary.GIF');
+  background-image: url('../assets/anniversary.GIF');
   background-size: cover;
   place-items: center;
   color: #fff;
   font-family: "Inter", "DM Sans", Arial, sans-serif;
+  margin: 0;
+  height: 100%;
   overflow: hidden;
 }
 

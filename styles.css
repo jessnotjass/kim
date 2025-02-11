@@ -8,7 +8,7 @@ hteml {
 
 body {
   background-color: var(--bg);
-  background-image: url("anniversary.gif");
+  background-image: url("assets/anniversary.gif");
   background-size: cover;
   place-items: center;
   color: #fff;

@@ -7,8 +7,8 @@ buttonNo.addEventListener('mouseover', () => {
 })
 
 buttonNo.addEventListener('click', () => {
-  buttonNo.style.left = `${Math.ceil(Math.random() * (window.innerWidth - buttonNo.style.width))}px`
-  buttonNo.style.top = `${Math.ceil(Math.random() * (window.innerHeight - buttonNo.style.height))}px`
+  buttonNo.style.left = `${Math.ceil(Math.random() * (window.innerWidth - (buttonNo.style.width * -1.5)))}px`
+  buttonNo.style.top = `${Math.ceil(Math.random() * (window.innerHeight - (buttonNo.style.height * -1.5)))}px`
   console.log(buttonNo.style.top)
   console.log(buttonNo.style.left)
 })
@@ -19,6 +19,7 @@ buttonYes.addEventListener('click', () => {
   document.getElementById('title').style.display = 'none'
   document.getElementById('cat').style.display = 'block'
   document.getElementById('note').style.display = 'block'
+  document.getElementById('content').style.marginTop = '0'
 })
 /*
 buttonYes.addEventListener('click', () => {
